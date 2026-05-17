@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitimas Catering | นิธิมาศ แคเทอริ่ง</title>
+    <meta name="description"
+        content="บริการ Snack box, coffee break, และรับจัดเลี้ยง นิธิมาศ แคเทอริ่ง ราคาเริ่มต้นเพียงชุดละ 30 บาท">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =====================
+         HEADER / NAVBAR
+         ===================== -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-utensils logo-icon"></i>
+                Nitimas Catering
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#about">เกี่ยวกับเรา</a></li>
+                <li><a href="#menu">แพ็กเกจ</a></li>
+                <li><a href="#contact">ติดต่อเรา</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary">สั่งอาหาร (Order Now)</a>
+                <div class="menu-toggle" id="mobileMenuBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- =====================
+         HERO SECTION
+         ===================== -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <!-- Left: Text Content -->
+            <div class="hero-content">
+                <div class="price-badge">
+                    <i class="fa-solid fa-tag"></i> ราคาเริ่มต้นเพียงชุดละ 30 บาท
+                </div>
+                <h1>บริการ <span class="highlight">Snack Box</span> และรับจัดเลี้ยงระดับพรีเมียม</h1>
+                <p>นิธิมาศ แคเทอริ่ง (Nitimas Catering) พร้อมบริการอาหารว่างคอฟฟี่เบรค และรับจัดเลี้ยงสำหรับงานสัมมนา
+                    งานแต่งงาน และงานองค์กร ด้วยเบเกอรี่อบสดใหม่และแพ็กเกจจิ้งสวยงาม ในราคาสุดคุ้ม</p>
+                <div class="hero-cta">
+                    <a href="#menu" class="btn btn-primary">ดูแพ็กเกจทั้งหมด</a>
+                    <a href="#contact" class="btn btn-outline">ติดต่อสอบถาม</a>
+                </div>
+            </div>
+
+            <!-- Right: Hero Image -->
+            <div class="hero-image">
+                <img src="images/hero.png" alt="Nitimas Catering Spread">
+                <div class="hero-decor">
+                    <i class="fa-solid fa-star"></i>
+                    <div>
+                        <div style="font-weight: 700; color: var(--text-dark);">คุณภาพเยี่ยม</div>
+                        <div style="font-size: 0.85rem; color: var(--text-light);">บริการด้วยใจ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+         ABOUT US SECTION
+         ===================== -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <!-- Left: Image -->
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070&auto=format&fit=crop"
+                    alt="Catering Event">
+            </div>
+
+            <!-- Right: Text -->
+            <div class="about-text">
+                <h2>เกี่ยวกับ <span class="highlight">นิธิมาศ แคเทอริ่ง</span></h2>
+                <p>เราคือผู้เชี่ยวชาญด้านบริการจัดเลี้ยงและ Snack Box ที่ได้รับความไว้วางใจจากหลากหลายองค์กร
+                    ด้วยประสบการณ์ในการจัดเตรียมอาหารว่างและคอฟฟี่เบรคที่พิถีพิถันในทุกขั้นตอน</p>
+                <p>ไม่ว่าจะเป็นงานสัมมนาขนาดใหญ่ งานแต่งงานสุดโรแมนติก หรือการประชุมภายในองค์กร
+                    เราพร้อมตอบสนองทุกความต้องการของคุณ ด้วยวัตถุดิบคุณภาพเยี่ยม เบเกอรี่อบสดใหม่
+                    และการบริการที่ตรงต่อเวลา</p>
+
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="feature-label">
+                            <h4>งานอบรม/สัมมนา/องค์กร</h4>
+                            <p>บริการสำหรับกรุ๊ปเล็ก/ใหญ่</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-rings-wedding"></i></div>
+                        <div class="feature-label">
+                            <h4>งานแต่งงาน</h4>
+                            <p>เมนูพิเศษสำหรับวันสำคัญ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+         MENU / PACKAGES
+         ===================== -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>แพ็กเกจ <span class="highlight">Snack Box</span> ยอดนิยม</h2>
+                <p>เลือกแพ็กเกจที่เหมาะสมกับงานของคุณ เรามีบริการหลากหลายระดับในราคาที่เข้าถึงได้</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Basic Box Card -->
+                <div class="menu-card">
+                    <div class="img-container">
+                        <img src="images/basic.png" alt="Basic Box" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Basic Box</h3>
+                        <div class="card-price">30.- <span>/ ชุด</span></div>
+                        <p class="card-desc">ชุดอาหารว่างสุดคุ้ม เหมาะสำหรับงานประชุมทั่วไป
+                            หรือกิจกรรมที่มีผู้เข้าร่วมจำนวนมาก</p>
+                        <ul class="card-list">
+                            <li><i class="fa-solid fa-check"></i> เบเกอรี่อบสดใหม่ 1 ชิ้น</li>
+                            <li><i class="fa-solid fa-check"></i> น้ำผลไม้ 100% 1 กล่อง</li>
+                            <li><i class="fa-solid fa-check"></i> กระดาษเช็ดปาก & หลอด</li>
+                            <li><i class="fa-solid fa-check"></i> กล่องดีไซน์เรียบหรู</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline card-btn">สั่งแพ็กเกจนี้</a>
+                    </div>
+                </div>
+
+                <!-- Standard Box Card -->
+                <div class="menu-card">
+                    <div class="img-container">
+                        <img src="images/standard.png" alt="Standard Box" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Standard Box</h3>
+                        <div class="card-price">50.- <span>/ ชุด</span></div>
+                        <p class="card-desc">ชุดอาหารว่างมาตรฐาน เพิ่มความหลากหลายของเมนู เหมาะสำหรับงานสัมมนาครึ่งวัน</p>
+                        <ul class="card-list">
+                            <li><i class="fa-solid fa-check"></i> เบเกอรี่อบสดใหม่ 2 ชิ้น</li>
+                            <li><i class="fa-solid fa-check"></i> น้ำผลไม้ หรือ น้ำสมุนไพร 1 ขวด</li>
+                            <li><i class="fa-solid fa-check"></i> กระดาษเช็ดปาก & ช้อนส้อม</li>
+                            <li><i class="fa-solid fa-check"></i> กล่องดีไซน์พรีเมียม</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary card-btn">สั่งแพ็กเกจนี้</a>
+                    </div>
+                </div>
+
+                <!-- Premium Box Card -->
+                <div class="menu-card">
+                    <div class="img-container">
+                        <img src="images/premium.png" alt="Premium Box" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Premium Box</h3>
+                        <div class="card-price">80.- <span>/ ชุด</span></div>
+                        <p class="card-desc">ชุดอาหารว่างระดับพรีเมียม จัดเต็มทั้งคาวและหวาน เหมาะสำหรับแขก VIP หรืองานสำคัญ</p>
+                        <ul class="card-list">
+                            <li><i class="fa-solid fa-check"></i> เบเกอรี่พรีเมียม 2 ชิ้น</li>
+                            <li><i class="fa-solid fa-check"></i> ของว่างคาว (แซนวิช/พาย) 1 ชิ้น</li>
+                            <li><i class="fa-solid fa-check"></i> เครื่องดื่มพรีเมียม 1 ขวด</li>
+                            <li><i class="fa-solid fa-check"></i> แพ็กเกจจิ้งแบบผูกริบบิ้นสวยงาม</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline card-btn">สั่งแพ็กเกจนี้</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+         WHY CHOOSE US
+         ===================== -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>ทำไมต้องเลือก <span class="highlight">เรา</span></h2>
+                <p>ความพึงพอใจของลูกค้าคือสิ่งที่เราให้ความสำคัญสูงสุด</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+                    <h3 class="benefit-title">ตรงต่อเวลา (Punctuality)</h3>
+                    <p>เราให้ความสำคัญกับเวลาของลูกค้า การจัดส่งและการเซ็ตอัพงานตรงตามเวลาที่นัดหมายเสมอ</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-bread-slice"></i>
+                    </div>
+                    <h3 class="benefit-title">เบเกอรี่อบสดใหม่ (Fresh Bakery)</h3>
+                    <p>วัตถุดิบคุณภาพสูง ทำสดใหม่วันต่อวัน ปราศจากสารกันบูด เพื่อรสชาติและสุขภาพที่ดี</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+                    <h3 class="benefit-title">แพ็กเกจจิ้งสวยงาม (Beautiful Packaging)</h3>
+                    <p>กล่องดีไซน์ทันสมัย สะอาด ดูดี ช่วยยกระดับภาพลักษณ์งานของคุณให้ดูเป็นมืออาชีพ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =====================
+         FOOTER / CONTACT
+         ===================== -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand Info -->
+                <div class="footer-about">
+                    <h3><i class="fa-solid fa-utensils"></i> Nitimas Catering</h3>
+                    <p>บริการ Snack box, coffee break, และรับจัดเลี้ยง นิธิมาศ แคเทอริ่ง
+                        ราคาเริ่มต้นเพียงชุดละ 30 บาท ให้บริการด้วยความใส่ใจในทุกรายละเอียด</p>
+                </div>
+
+                <!-- Column 2: Contact Details -->
+                <div class="footer-contact">
+                    <h4>ติดต่อเรา (Contact Us)</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>4/2 หมู่ 1 ตำบลแม่ระกา อำเภอวังทอง จังหวัดพิษณุโลก 65130</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:0616847366">06-1684-7366</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:plaionlinework@gmail.com">plaionlinework@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Payment Methods -->
+                <div class="footer-payment">
+                    <h4>ช่องทางการชำระเงิน (Payment)</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-qrcode"></i>
+                            <span>PromptPay: <strong>06-1684-7366</strong></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social Media -->
+                <div class="footer-social">
+                    <h4>ติดตามเรา (Follow Us)</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <p class="line-id">Line ID: <span>@nitimascatering</span></p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; <span id="currentYear"></span> Nitimas Catering (นิธิมาศ แคเทอริ่ง). All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript (loaded at end of body for performance) -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
